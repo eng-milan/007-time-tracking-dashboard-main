@@ -2,9 +2,9 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     background-color: hsl(226, 43%, 10%);
-    padding: 20px 5% 0;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 10%;
 }
 
 body, .report-heading, .person-report-image, .person-report-name, .report-period, main {
@@ -220,7 +220,7 @@ main {
 .attribution {
     color: #fff;
     font-size: 0.8rem;
-    margin: 10px auto 0;
+    margin: 10px auto;
 }
 
 .attribution a {
