@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" media="(max-width: 749px)" href="styles/max-width-500.css">
+  <link rel="stylesheet" media="(min-width: 750px)" href="styles/501-963-width.css">
+  <link rel="stylesheet" media="(min-width: 969px)" href="styles/desktop.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="person-report-box">
+
+    <div class="report-heading">
+
+      <img class="person-report-image-round" src="images/image-jeremy.png" alt="Jeremy Robson">
+      <div class="person-report-name">
+        <h2 class="report-for">Report for</h2>
+        <h1 class="person-name">Jeremy Robson</h1>
+      </div>
+
+    </div>
+
+    <div class="report-period">
+
+      <h3 class="report-period-item" id="report-daily">Daily</h3>
+      <h3 class="report-period-item" id="report-weekly">Weekly</h3>
+      <h3 class="report-period-item" id="report-monthly">Monthly</h3>
+
+    </div>
+
+  </div>
+
+  <main>
+
+    <div class="work daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Work</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">5hrs</h4>
+          <h4 class="previous-hours">Last Week - 7hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="work weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Work</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">32hrs</h4>
+          <h4 class="previous-hours">Last Week - 36hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="work monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Work</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">103hrs</h4>
+          <h4 class="previous-hours">Last Week - 128hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="play daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Play</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">1hrs</h4>
+          <h4 class="previous-hours">Last Week - 2hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="play weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Play</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">10hrs</h4>
+          <h4 class="previous-hours">Last Week - 8hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="play monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Play</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">23hrs</h4>
+          <h4 class="previous-hours">Last Week - 29hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="study daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Study</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">0hrs</h4>
+          <h4 class="previous-hours">Last Week - 1hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="study weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Study</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">4hrs</h4>
+          <h4 class="previous-hours">Last Week - 7hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="study monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Study</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">13hrs</h4>
+          <h4 class="previous-hours">Last Week - 19hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Exercise</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">1hrs</h4>
+          <h4 class="previous-hours">Last Week - 1hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Exercise</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">4hrs</h4>
+          <h4 class="previous-hours">Last Week - 5hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Exercise</h4>
+          <img src="images/icon-ellipsis.svg" alt="More">
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">11hrs</h4>
+          <h4 class="previous-hours">Last Week - 18hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="social daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Social</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">1hrs</h4>
+          <h4 class="previous-hours">Last Week - 3hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="social weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Social</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">5hrs</h4>
+          <h4 class="previous-hours">Last Week - 10hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="social monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Social</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">21hrs</h4>
+          <h4 class="previous-hours">Last Week - 23hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="selfcare daily report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Self Care</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">0hrs</h4>
+          <h4 class="previous-hours">Last Week - 1hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="selfcare weekly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Self Care</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">2hrs</h4>
+          <h4 class="previous-hours">Last Week - 2hrs</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="selfcare monthly report-container">
+      <div class="report-box">
+        <div class="activity-heading-box">
+          <h4 class="activity-title">Self Care</h4>
+          <div class="work-title-image"><img src="images/icon-ellipsis.svg" alt="More"></div>
+        </div>
+        <div class="activity-hours-box">
+          <h4 class="activity-hours">7hrs</h4>
+          <h4 class="previous-hours">Last Week - 11hrs</h4>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/eng-milan">Tohid Dalaei Milan</a>.
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

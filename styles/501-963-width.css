@@ -1,0 +1,232 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: hsl(226, 43%, 10%);
+    padding: 50px 5% 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body, .report-heading, .person-report-image, .person-report-name, .report-period, main, .activity-heading-box, .activity-hours-box {
+    display: flex;
+}
+
+/* Person Report Heading Section */
+
+.person-report-box {
+    background-color: hsl(235, 46%, 20%);
+    width: 20%;
+    border-radius: 20px;
+}
+
+.report-heading {
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 40px 0 40px 20px;
+    flex-direction: column;
+}
+
+#report-daily:hover, #report-weekly:hover, #report-monthly:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.person-report-image-round {
+    border-radius: 50%;
+    width: 70px;
+    border: 3px solid #fff;
+    margin-bottom: 50px;
+}
+
+.person-report-name {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.report-for {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.person-name {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+
+.report-period {
+    border-radius: 0 0 20px 20px;
+    justify-content: space-around;
+    color: hsl(235, 45%, 61%);
+    flex-direction: column;
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+
+.report-period-item {
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.activated {
+    color: #fff;
+}
+
+main {
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.report-container {
+    background-position: 94% -10px;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    padding-top: 35px;
+    border-radius: 17px;
+    width: 29%;
+    margin-left: 20px;
+}
+
+.report-box {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 35px 10%;
+}
+
+.report-box:hover {
+    background-color: hsla(235, 46%, 20%, 0.9);
+    cursor: pointer;
+}
+
+.activity-heading-box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-hours-box {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.activity-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.activity-hours {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.previous-hours {
+    font-size: 0.7rem;
+    color: hsl(236, 100%, 87%);
+    margin-bottom: 11px;
+}
+
+/* Work Box Section */
+
+.work.report-container,
+.work.report-container,
+.work.report-container {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(../images/icon-work.svg);
+    background-position: 90% -5px;
+    background-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+/* Play Box Section */
+
+.play.report-container,
+.play.report-container,
+.play.report-container {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(../images/icon-play.svg);
+    background-position: 90% -5px;
+    background-size: 55px;
+    margin-bottom: 10px;
+}
+
+/* Study Box Section */
+
+.study.report-container,
+.study.report-container,
+.study.report-container {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(../images/icon-study.svg);
+    background-position: 90% -5px;
+    background-size: 55px;
+    margin-bottom: 10px;
+}
+
+
+/* Exercise Box Section */
+
+.exercise.report-container,
+.exercise.report-container,
+.exercise.report-container {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(../images/icon-exercise.svg);
+    background-position: 90% 0;
+    background-size: 55px;
+    margin-top: 14px;
+}
+
+
+/* Social Box Section */
+
+.social.report-container,
+.social.report-container,
+.social.report-container {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(../images/icon-social.svg);
+    background-position: 90% -3px;
+    background-size: 55px;
+    margin-top: 10px;
+}
+
+/* Self Care Box Section */
+
+.selfcare.report-container,
+.selfcare.report-container,
+.selfcare.report-container {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(../images/icon-self-care.svg);
+    background-position: 90% -10px;
+    background-size: 55px;
+    margin-top: 10px;
+}
+
+.daily.report-container,
+.weekly.report-container,
+.monthly.report-container {
+    display: none;
+}
+
+.visible.container {
+    display: block;
+}
+
+.attribution {
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 10px auto 0;
+}
+
+.attribution a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
